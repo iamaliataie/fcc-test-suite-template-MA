@@ -8,7 +8,84 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container main-wrapper m-5" style="color: white;">
+      <h1 class="text-center">Free CodeCamp Survey Form</h1>
+      <p class="text-center">Thank you for taking the time to help us improve the platform</p>
+      <div class="form-div p-5" style="background-color: rgb(27 27 50 / 80%);">
+        <form action="survey">
+          <div>
+            <label for="">Name</label>
+          <input type="text" name="" id="name-label" placeholder="Enter your name" class="form-control mb-3">
+          </div>
+          <div>
+            <label for="">Email</label>
+          <input type="email" name="" id="email-label" placeholder="Enter your email" class="form-control mb-3">
+          </div>
 
+          <div>
+            <label for="">Age(optional)</label>
+          <input type="number" name="" id="age-label" placeholder="age" class="form-control mb-3">
+          </div>
+          <label for="">Which option best describes your current role?</label>
+          <select name="" id="" class="form-control mb-3">
+            <option value="" disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="learner">Full Time Learner</option>
+          </select>
+          <label for="">Would you recommend freeCodeCamp to a friend?</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleForm" id="radio3Example1" />
+            <label class="form-check-label" for="radio3Example1">
+              Very good
+            </label>
+          </div>
+            <div></div>
+              <input class="form-check-input" type="radio" name="exampleForm" id="radio3Example1" />
+              <label class="form-check-label" for="radio3Example1">
+                Maybe
+              </label>
+            <div>
+            </div>
+              <input class="form-check-input" type="radio" name="exampleForm" id="radio3Example1" />
+              <label class="form-check-label" for="radio3Example1">
+                Not Sure
+              </label>
+              <br>
+              <br>
+            <label for="">What is your favorite feature of freeCodeCamp?</label>
+          <select name="" id="" class="form-control mb-3">
+            <option value="" disabled selected>Select an option</option>
+            <option value="student">Challenges</option>
+            <option value="job">Projects</option>
+            <option value="learner">Community</option>
+            <option value="learner">Open Source</option>
+          </select>
+          <label for="">What would you like to see improved? (Check all that apply)</label>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Front-end Projects</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Back-end Projects</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Data Visualization</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox"> Challenges</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Open Source Community</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Gitter help rooms</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Videos</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">City Meetups</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Wiki</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Forum</label><br>
+          <label><input type="checkbox" id="cbox1" value="first_checkbox">Additional Courses</label><br>
+          <label for="" class="mt-3">Any comments or suggestions?</label>
+          <div class="form-outline">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..." class="form-control"></textarea>
+
+        </div>
+        <div class="w-33 m-auto">
+          <button type="submit" id="submit" class="mt-4 btn btn-success">Submit</button>
+        </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    </div>
     <!--
 
     Hello Camper!
@@ -21,7 +98,7 @@
     - The freeCodeCamp Team
 
     -->
-    <h1>HHello World, we are software developers</h1>
+    <h1>Hello World, we are software developers</h1>
     <script  src="js/index.js"></script>
   </body>
 </html>
